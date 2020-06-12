@@ -31,8 +31,8 @@ class Show < ActiveRecord::Base
 
 end
 
-Dog.where("age < 10")
+# Dog.where("age < 10")
 
-def self.popular_shows
-    Show.where("age = ?", 10)
-end
+# def self.popular_shows
+#     Show.where("age = ?", 10)
+# end
